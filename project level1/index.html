@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRASAD PATIL Portfolio</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>PRASAD PATIL</h1>
+        <p>Information Technology Engineer</p>
+    </header>
+    <div class="button-center">
+        <button id="darkModeToggle">Dark Mode</button>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Passport.jpg" alt="PRASAD PATIL" class="profile-image">
+        <p>As a recent graduate with a degree in Information Technology, I am passionate about leveraging technology to
+            solve real-world problems. During my academic journey, I developed a strong foundation in software
+            development, database management, and network security. <br><br>
+            I possess strong analytical skills and am proficient in various programming languages, including C/C++,
+            and SQL. I am eager to contribute my technical expertise and enthusiasm for continuous learning to a
+            forward-thinking organization</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS.</li>
+            <li>C/C++, MySQL.</li>
+            <li> Python, Javascript.</li>
+            <li>Leadership, Communication, Problem Solving.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Tourist Guide System for Chardham Yatra</h3>
+            <p>A website based Tourist Guide system for Char Dham Yatra at Uttarakhand,to help tourist to plan trip
+                itinerary.
+                <li>Provided information about Chardham’s tourist attraction places.</li>
+                <li>Provided Travel assistance, Live Weather, Live Maps for Chardham Yatra.</li>
+                <li>Technology Used: HTML, CSS, JavaScript, PHP.</li>
+            </p>
+            <img src="Screenshot (2).png" alt="Project 1">
+        </div>
+
+        <div class="project">
+            <h3>Image-based Fashion Recommendation System</h3>
+            <p>A Machine Learning based web application which allow users to get image based recommendations.
+                <li>Implemented ML algorithm K-NN, CNN and trained ML model with 44k image dataset.</li>
+                <li>Developed a recommendation system for Fashion items using Machine Learning and Python.</li>
+                <li>The system suggests 5 similar fashion products as similar as input image.</li>
+                <li>Technology Used: HTML, Python, Machine Learning Algorithm, Tensorflow.</li>
+            </p>
+            <img src="ml project.png" alt="Project 2">
+        </div>
+
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+       <div class="button-center">
+        <button>
+           <a href="https://drive.google.com/file/d/19o9OichEs8YjLvhuTRZuSFLkxGr7vt0m/view?usp=drivesdk"
+            target="_blank" class="btnhpr">DOWNLOAD</a>
+        </button>
+    </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:pingme.prasad@gmail.com" class="removeunder"> pingme.prasad@gmail.com</a></p>
+        <p>Phone:<a href="#" class="removeunder"> +918459727511</a></p>
+        <p>LinkedIn:<a href="https://www.linkedin.com/in/prasad-patil-683792320" target="_blank" class="removeunder"> Prasad Patil</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PRASAD PATIL. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('darkModeToggle').addEventListener('click', function () {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+
+</html>
